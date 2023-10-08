@@ -25,6 +25,7 @@ fun RegisterScreen(
 ) {
     
     val emailInput = viewModel.emailInput.collectAsState()
+    val passwordInput = viewModel.passwordInput.collectAsState()
     
     Scaffold(modifier = Modifier.fillMaxSize(),
             content = { paddingValues ->
@@ -37,7 +38,8 @@ fun RegisterScreen(
                 ) {
                     Body(
                             viewModel = viewModel,
-                            emailInput = emailInput
+                            emailInput = emailInput,
+                            passwordInput = passwordInput,
                     )
                 }
             },

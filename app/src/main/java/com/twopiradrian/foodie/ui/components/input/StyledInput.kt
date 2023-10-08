@@ -5,6 +5,7 @@ package com.twopiradrian.foodie.ui.components.input
 import androidx.annotation.StringRes
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -87,5 +88,6 @@ fun StyledInput(
                     modifier = Modifier.padding(start = 8.dp)
             )
         }
+        Spacer(modifier = Modifier.padding(10.dp))
     }
 }

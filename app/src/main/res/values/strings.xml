@@ -10,4 +10,7 @@
     <string name="register_button">Registrarse</string>
     <string name="email_required">El correo es obligatorio</string>
     <string name="email_invalid">El correo no es válido</string>
+    <string name="password_required">La contraseña es obligatoria</string>
+    <string name="password_too_short">Contraseña insegura</string>
+    <string name="password_placeholder">* * * * * * * * *</string>
 </resources>
