@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.twopiradrian.foodie"
-    compileSdk = 33
+    compileSdk = 34
     
     defaultConfig {
         applicationId = "com.twopiradrian.foodie"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
         
@@ -76,5 +76,7 @@ dependencies {
     implementation ("androidx.compose.runtime:runtime-livedata:1.5.3")
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+    // Lottie animations
+    implementation("com.airbnb.android:lottie-compose:6.0.1")
     
 }

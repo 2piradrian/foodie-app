@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">foodie</string>
+    <string name="app_name">Foodie</string>
+
+    <string name="no_error"> </string>
+
+    <string name="email_label">Correo electrónico</string>
+    <string name="email_placeholder">tuCorreo@mail.com</string>
+    <string name="password_label">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="register_button">Registrarse</string>
+    <string name="email_required">El correo es obligatorio</string>
+    <string name="email_invalid">El correo no es válido</string>
 </resources>
