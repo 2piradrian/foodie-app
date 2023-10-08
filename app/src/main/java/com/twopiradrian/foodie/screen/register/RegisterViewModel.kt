@@ -1,6 +1,5 @@
 package com.twopiradrian.foodie.screen.register
 
-import android.util.Log
 import android.util.Patterns
 import androidx.lifecycle.ViewModel
 import com.twopiradrian.foodie.R

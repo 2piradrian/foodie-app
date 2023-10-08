@@ -35,7 +35,6 @@ fun Body(
         )
         Column(
                 modifier = Modifier.fillMaxSize().weight(0.7f)
-
         ) {
             StyledInput(
                     state = emailInput.value,
