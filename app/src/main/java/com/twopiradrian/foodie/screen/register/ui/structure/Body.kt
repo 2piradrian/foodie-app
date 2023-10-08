@@ -1,12 +1,15 @@
 package com.twopiradrian.foodie.screen.register.ui.structure
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.unit.dp
 import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.LottieConstants
@@ -26,7 +29,7 @@ fun Body(
     val composition by rememberLottieComposition(LottieCompositionSpec.RawRes(R.raw.donnut_animation))
     
     Column(
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.widthIn(max = 500.dp).fillMaxSize()
     ) {
         LottieAnimation(
                 composition = composition,
